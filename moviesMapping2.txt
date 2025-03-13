@@ -10,7 +10,7 @@
       "Year": { "type": "integer" },
       "Rated": { "type": "keyword" },
       "Released": { "type": "date", "format": "dd MMM yyyy" },
-      "Runtime": { "type": "integer" },
+      "Runtime": { "type": "text" },
       "Genre": {
         "type": "text",
         "fields": {
